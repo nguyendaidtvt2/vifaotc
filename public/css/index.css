@@ -1,0 +1,637 @@
+#particles-js {
+    position: static;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    background-image: url("../images/bg.295.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: 1000;
+}
+
+.carousel {
+    padding: 25vh 30vh;
+    position: absolute;
+    z-index: 999;
+}
+
+.slider-content h2 {
+    animation-delay: 1s;
+    font-size: 42px;
+    font-weight: 900;
+    font-size: 50px;
+    color: #fff;
+    margin: 0 0 50px;
+    text-shadow: 0 5px 30px rgba(44, 46, 83, 0.3);
+}
+
+.slider-content h3 {
+    font-weight: 400;
+    font-size: 26px;
+    color: #fff;
+    margin: 0 0 50px;
+    animation-delay: 2s;
+    line-height: 36px;
+}
+
+.section {
+    padding: 100px 0;
+}
+
+.team-area {
+    background: #2c2e53;
+    position: relative;
+}
+
+.container {
+    padding: 30px 0 20px 20px;
+}
+
+.section-heading2 {
+    display: block;
+    margin: 0 0 60px;
+    text-align: center;
+}
+
+.section-heading2 h2 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.team-area.first-area .team-list {
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.team-area .team-list .conte .conte-img {
+    padding: 30px 50px;
+}
+
+.team-area .team-list .conte {
+    position: relative;
+    padding: 45px 45px 0;
+    background: #1a1c35;
+    z-index: 999;
+    border-radius: 15px;
+}
+
+.team-area .team-list:after {
+    position: absolute;
+    height: 100px;
+    background: linear-gradient(to right, rgba(57, 100, 208, 1) 0, rgba(45, 193, 201, 1) 100%);
+    border-radius: 15px;
+    content: "";
+    left: 50px;
+    right: 50px;
+    top: -30px;
+    bottom: 0;
+}
+
+.video-area {
+    background: #1a1c35;
+    position: relative;
+    display: block;
+    padding-bottom: 120px;
+    text-align: center;
+    margin: 0;
+}
+
+.box-with-icon .bwi-icon {
+    display: inline-block;
+    margin-bottom: 21px;
+}
+
+.box-with-icon .bwi-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 21px auto 21px;
+    color: #cacaca;
+}
+
+.bwi-text {
+    color: #8486a6;
+}
+
+.bwi-icon i {
+    font-size: 50px;
+    color: #cacaca;
+}
+
+.sud {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    vertical-align: middle;
+    margin: 0 0 -9px;
+    background: #1a1c35;
+}
+
+.projects {
+    background: #2c2e53;
+}
+
+.features-area .token-con,
+.media-area .token-con {
+    font-size: 20px;
+    margin: 30px 0 0;
+    color: #8486a6;
+}
+
+.projects .project-list {
+    position: relative;
+    display: block;
+    background: #2c2e53;
+    margin: 0 0 38px;
+    padding-top: 14px;
+}
+
+.features-area.projects .project-list .content {
+    height: 400px;
+    display: block;
+    background: #1a1c35;
+    text-align: center;
+    padding: 60px 0 70px;
+    border-radius: 15px;
+    position: relative;
+    z-index: 999;
+    transition: all 0.5s;
+}
+
+.projects .project-list .content span {
+    display: block;
+    height: 95px;
+    margin: 0 0 20px;
+}
+
+.projects .project-list .content h3 {
+    color: #fff;
+    margin: 0;
+    line-height: 28px;
+}
+
+.featured_smalltit {
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 0 5px;
+}
+
+.projects .project-list:after {
+    content: "";
+    position: absolute;
+    left: 40px;
+    right: 40px;
+    top: 0;
+    bottom: 0;
+    border-radius: 15px;
+    background: linear-gradient(to right, rgba(57, 100, 208, 1) 0, rgba(45, 193, 201, 1) 100%);
+    z-index: 9;
+}
+
+.projects .project-list .content:hover {
+    transform: translateY(-7px);
+}
+
+.steps-area {
+    background: #1a1c35;
+}
+
+.section-heading {
+    margin: 0 0 60px;
+    display: block;
+    text-align: center;
+}
+
+.section-heading h2 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+}
+
+.Compares_nav {
+    position: relative;
+    padding: 0 90px;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+}
+
+.Compares_nav:before {
+    content: "";
+    height: 5px;
+    width: 920px;
+    background: #4c4c4c;
+    position: absolute;
+    z-index: 0;
+    left: 115px;
+    top: 5.5rem;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.Compares_btn {
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    color: #949494;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.3;
+    height: 215px;
+    width: 140px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    cursor: pointer;
+    outline: none;
+    -webkit-transition: -webkit-transform 0.2s ease;
+    transition: -webkit-transform 0.2s ease;
+    -o-transition: transform ease 0.2s;
+    transition: transform 0.2s ease;
+    transition: transform 0.2s ease, -webkit-transform 0.2s ease;
+    background: none;
+    border: none;
+}
+
+.Compares_btn--selected .Compares_btn_icon {
+    -webkit-transform: scale(1.45);
+    -ms-transform: scale(1.45);
+    transform: scale(1.45);
+}
+
+.Compares_btn_icon {
+    width: 91px;
+    height: 91px;
+    border-radius: 50%;
+    background: #171926;
+    border: 1px solid #171926;
+    box-shadow: 0 0 13px rgba(216, 192, 192, 0.25), 0 2px 24px 9px rgba(255, 255, 255, 0.04);
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto 10px;
+    position: relative;
+    padding: 10px;
+}
+
+.Compares_btn--selected .Compares_btn_title {
+    color: #bbb;
+    font-size: 22px;
+    -webkit-transform: translate3d(0, 2.6rem, 0);
+    transform: translate3d(0, 2.6rem, 0);
+}
+
+.Compares_btn:not(.Compares_btn--selected):not(.Compares_btn--disabled):hover .Compares_btn_icon {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.Compares_btn_icon,
+.Compares_btn_title {
+    -webkit-transition: -webkit-transform 0.2s ease;
+    transition: -webkit-transform 0.2s ease;
+    -o-transition: transform ease 0.2s;
+    transition: transform 0.2s ease;
+    transition: transform 0.2s ease, -webkit-transform 0.2s ease;
+}
+
+.Compares_btn_tooltip {
+    position: absolute;
+    left: 50%;
+    margin-left: -8rem;
+    top: -5rem;
+    width: 16rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: #000;
+    font-weight: 400;
+    font-size: 1.6rem;
+    border-radius: 0.8rem;
+    color: #fff;
+    opacity: 0;
+    -webkit-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+}
+
+.Compares_btn:hover .Compares_btn_tooltip {
+    opacity: 1;
+}
+
+.Compares_fee {
+    padding: 4.8rem 9rem;
+}
+
+.Compares_fee_item {
+    width: 14rem;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.Compares_fee_icon {
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 13px rgba(216, 192, 192, 0.25), 0 2px 24px 9px rgba(255, 255, 255, 0.04);
+    box-shadow: 0 0 13px rgba(216, 192, 192, 0.25), 0 2px 24px 9px rgba(255, 255, 255, 0.04);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    border: 0.1rem solid #ebf0ef;
+    color: #848484;
+    font-size: 3.2rem;
+    font-weight: 500;
+}
+
+.Compares_fee_plus svg {
+    fill: #c9c9c9;
+    width: 100%;
+    height: 100%;
+}
+
+.Compares_fee_icon {
+    width: 14.2rem;
+    height: 14.2rem;
+    font-size: 2.2rem;
+}
+
+.Compares_fee_icon_value {
+    color: #383838;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.3;
+    position: relative;
+    top: 0.3rem;
+    left: -1.6rem;
+    margin-left: 35px;
+}
+
+.Compares_fee_icon_value {
+    font-size: 4.2rem;
+    letter-spacing: -0.2rem;
+    line-height: 1;
+    margin-left: 35px;
+}
+
+.Compares_fee_item_title {
+    color: #707070;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    width: 200%;
+    margin-left: -50%;
+}
+
+/* progress bar */
+.Compares_fee_item_helper {
+    color: #9e9e9e;
+    font-size: 14px;
+    margin-top: 0;
+    width: 100%;
+    white-space: normal;
+    word-break: break-word;
+    height: 55px;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.Compares_fee_plus {
+    width: 30px;
+    height: 30px;
+    margin-top: -7rem;
+}
+
+.Compares_slider {
+    position: relative;
+    padding: 6rem 0 0;
+}
+
+.Compares_slider .slider {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.Compares_slider .slider_helper {
+    color: #fff;
+    font-size: 21px;
+    padding: 0 20px;
+    line-height: 1.2;
+    position: relative;
+    top: -14px;
+    left: 0.2rem;
+}
+
+.Compares_slider .slider_helper:first-child {
+    padding-left: 0;
+}
+
+.Compares_slider .slider_helper_title {
+    color: rgba(64, 162, 236, 0.8);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.1px;
+}
+
+.Compares_slider .slider_helper_value {
+    font-size: 24px;
+}
+
+.Compares_slider .slider_helper_value .cent {
+    font-size: 16px;
+    vertical-align: 0.25rem;
+    margin-right: 0.4rem;
+}
+
+.slider_helper_value span.price {
+    display: inline-block;
+    width: 78px;
+}
+
+.Compares_slider .irs.js-irs-0 {
+    width: 80%;
+    margin-top: -25px;
+}
+
+.Compares_card_wrap {
+    position: relative;
+    padding: 0;
+    margin-top: 2.4rem;
+}
+
+/* progress bar */
+
+.Compares_card_wrap {
+    position: relative;
+    padding: 0;
+    margin-top: 2.4rem;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.Compares_card {
+    color: #a8a8a8;
+    font-weight: 500;
+    letter-spacing: 0.16rem;
+    display: block;
+    position: relative;
+    width: 32%;
+    text-align: left;
+    margin-bottom: 2.4rem;
+}
+
+.Compares_card_inner {
+    background: #fff;
+    padding: 10px;
+    -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06), 0 2px 24px 9px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06), 0 2px 24px 9px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 9;
+}
+
+.Compares_card_logo {
+    padding: 0;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.Compares_card_text {
+    text-align: center;
+}
+
+.Compares_card_price {
+    color: #1e1e1e;
+    font-size: 36px;
+    padding: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.Compares__card__helper {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.Compares_card_label {
+    height: 50px;
+    position: absolute;
+    bottom: -45px;
+    line-height: 57px;
+    width: 100%;
+    border-radius: 4px;
+    background: #cceedf;
+    font-size: 18px;
+    color: #529b7b;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: -0.012rem;
+    margin-bottom: 0;
+}
+
+.section1 {
+    padding: 40px 0 60px 0;
+}
+
+.join-area {
+    background: #2c2e53;
+}
+
+h2.question_txt {
+    font-weight: 400;
+    font-size: 18px;
+    color: #8384b1;
+    margin: 0 0 38px;
+    text-align: center;
+}
+
+.btn1 {
+    background: linear-gradient(to right, rgba(57, 100, 208, 1) 0, rgba(45, 193, 201, 1) 100%);
+    padding: 0 35px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.btn1.big-btn {
+    height: 70px;
+    line-height: 70px;
+    font-size: 20px;
+    padding: 20px 55px;
+    border-radius: 40px;
+}
+
+.btn1 i {
+    padding-right: 5px;
+}
+
+#slider {
+    webkit-appearance: none;
+    width: 100%;
+    height: 10px;
+    outline: none;
+    border-radius: 3px;
+}
+#slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 48px;
+    height: 48px;
+    z-index: 3;
+    cursor: pointer;
+    position: relative;
+}
+#selector {
+    height: 104px;
+    width: 48px;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.selectBtn {
+    height: 48px;
+    width: 48px;
+    background-image: url(data:image/png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+}

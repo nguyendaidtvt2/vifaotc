@@ -1,0 +1,31 @@
+.blog-area.platform-area {
+    background: #1a1c35;
+    margin-top: 85px;
+}
+
+.row.tokens-area {
+    background: transparent;
+    margin-bottom: 60px;
+}
+.section-heading {
+    margin: 0 0 60px;
+    display: block;
+    text-align: center;
+}
+.section-heading h2 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+}
+h4,
+h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #8486a6;
+}
+.otc_smalltit {
+    font-size: 20px;
+    margin-top: 20px;
+}

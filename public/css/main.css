@@ -1,0 +1,63 @@
+* {
+    font-family: "Lato", sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    margin: 0 0 10px;
+    color: #8486a6;
+}
+
+.logo_cnt {
+    color: #8486a6;
+    padding-right: 40px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+.flex-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.flex-align-center {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+button:focus {
+    outline: none;
+}
+
+.container {
+    padding: 30px 0 20px 20px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding: 30px 0 20px 20px;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}

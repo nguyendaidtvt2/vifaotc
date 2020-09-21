@@ -1,0 +1,78 @@
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="/">
+        <img src="/images/vifa-square.png" alt="logo" width="200px" loading="lazy" id="logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto menu">
+            <li class="nav-item <%= currentPage === 1 ? 'active' : '' %>">
+                <a class="nav-link" href="/"><%= __('Home') %></a>
+            </li>
+            <li class="nav-item <%= currentPage === 2 ? 'active' : '' %>">
+                <a class="nav-link" href="/dealer"><%= __('Be a Trader') %></a>
+            </li>
+            <li class="nav-item <%= currentPage === 3 ? 'active' : '' %>">
+                <a class="nav-link" href="/cooperation"><%= __('Corporate Collaboration') %></a>
+            </li>
+            <li class="nav-item <%= currentPage === 4 ? 'active' : '' %>">
+                <a class="nav-link" href="/about"><%= __('About Us') %></a>
+            </li>
+            <li class="nav-item <%= currentPage === 5 ? 'active' : '' %>">
+                <a class="nav-link" href="/help"><%= __('Help Center') %></a>
+            </li>
+        </ul>
+        <div class="my-2 my-lg-0">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item nav-link">
+                    <div class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle <%= lang !== 'en' ? 'none' : '' %>" href="/change-lang/en"
+                            id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            <img src="https://res.cloudinary.com/vgf/image/upload/v1594046455/united-kingdom-flag-button-square-icon-64_qmadds.png"
+                                width="28px" alt="">
+                        </a>
+                        <a class="nav-link dropdown-toggle <%= lang !== 'cn' ? 'none' : '' %>" href="/change-lang/cn"
+                            id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            <img src="https://res.cloudinary.com/vgf/image/upload/v1594046453/china-flag-button-square-icon-64_tijkro.png"
+                                width="28px" alt="">
+                        </a>
+                        <a class="nav-link dropdown-toggle <%= lang !== 'vi' ? 'none' : '' %>" href="/change-lang/vi"
+                            id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            <img src="https://res.cloudinary.com/vgf/image/upload/v1594046458/vietnam-flag-button-square-icon-64_qs1bym.png"
+                                width="28px" alt="">
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item <%= lang === 'vi' ? 'none' : '' %>" href="/change-lang/vi">
+                                <img src="https://res.cloudinary.com/vgf/image/upload/v1594046458/vietnam-flag-button-square-icon-64_qs1bym.png"
+                                    alt="" width='28px'>
+                                Tiếng Việt
+                            </a>
+                            <a class="dropdown-item <%= lang === 'cn' ? 'none' : '' %>" href="/change-lang/cn">
+                                <img src="https://res.cloudinary.com/vgf/image/upload/v1594046453/china-flag-button-square-icon-64_tijkro.png"
+                                    width="28px" alt="">
+                                中文
+                            </a>
+                            <a class="dropdown-item <%= lang === 'en' ? 'none' : '' %>" href="/change-lang/en">
+                                <img src="https://res.cloudinary.com/vgf/image/upload/v1594046455/united-kingdom-flag-button-square-icon-64_qmadds.png"
+                                    width="28px" alt="">
+                                English
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item nav-link">
+                    <a href="https://business.vifaotc.com/" target="_blank" class="btn btn-light"><%= __('Login') %></a>
+                </li>
+                <li class="nav-item nav-link">
+                    <a href="#" class="btn btn-outline-success" target="_blank"><%- __('Register') %></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
