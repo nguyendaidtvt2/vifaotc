@@ -27,7 +27,7 @@
 .service ul[data-v-2e36f698] {
     display: flex;
     width: 1025px;
-    height: 220px;
+    height: 300px;
     margin: 0 auto;
     padding: 0;
 }
@@ -303,7 +303,7 @@
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: justify;
-    justify-content: space-between;
+    justify-content: start;
     width: 700px;
 }
 .integrating .contact .avatar[data-v-2e36f698] {

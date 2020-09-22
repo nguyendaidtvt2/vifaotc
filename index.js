@@ -18,6 +18,7 @@ i18n.configure({
     locales: ['cn', 'en', 'vi'],
     directory: __dirname + '/locales',
     cookie: 'lang',
+    defaultLanguage: 'en',
     updateFiles: false
 });
 app.use(i18n.init);
@@ -51,11 +52,11 @@ app.get('/partner-program', function (req, res) {
 });
 
 app.get('/privacy', function (req, res) {
-    res.render('./privacy', { title: 'PRIVACY', lang: req.cookies.lang || 'en' });
+    res.render('./privacy', { title: 'PRIVACY', currentPage: 0, lang: req.cookies.lang || 'en' });
 });
 
 app.get('/terms', function (req, res) {
-    res.render('./terms', { title: 'TERMS', lang: req.cookies.lang || 'en' });
+    res.render('./terms', { title: 'TERMS', currentPage: 0, lang: req.cookies.lang || 'en' });
 });
 
 // Config Server Port
