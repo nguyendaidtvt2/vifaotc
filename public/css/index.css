@@ -6,6 +6,7 @@
     background-image: url("../images/bg.295.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     background-position: 50% 50%;
     z-index: 1000;
 }
@@ -607,6 +608,7 @@ h2.question_txt {
     outline: none;
     border-radius: 3px;
 }
+
 #slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     width: 48px;
@@ -615,6 +617,7 @@ h2.question_txt {
     cursor: pointer;
     position: relative;
 }
+
 #selector {
     height: 104px;
     width: 48px;
@@ -628,10 +631,23 @@ h2.question_txt {
 .selectBtn {
     height: 48px;
     width: 48px;
-    background-image: url(data:image/png);
-    background-size: cover;
-    background-position: center;
     border-radius: 50%;
     position: absolute;
     bottom: 0;
+}
+
+.partenrs-area {
+    background: #2c2e53;
+}
+
+.mediabrand ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mediabrand ul li {
+    float: left;
+    width: calc((100% - 240px) / 6);
+    margin: 20px 40px;
 }

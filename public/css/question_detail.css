@@ -1,0 +1,36 @@
+article {
+    margin-top: 100px;
+}
+.article-header {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.article-author {
+    margin: 20px 0;
+}
+.article-avatar {
+    margin-right: 10px;
+    display: inline-block;
+}
+.avatar img {
+    height: 40px;
+    width: 40px;
+}
+.article-meta {
+    display: inline-block;
+    vertical-align: middle;
+}
+.meta-group {
+    display: flex;
+}
+.meta-data {
+    color: #6b6b6b;
+    font-size: 13px;
+    font-weight: 300;
+    margin-right: 10px;
+}

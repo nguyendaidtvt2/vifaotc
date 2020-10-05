@@ -42,7 +42,7 @@
 	"MAXIMUM": "MAXIMUM",
 	"No Limit": "No Limit",
 	"YOU PAY": "YOU PAY",
-	"We’re <span class=\"cheapernum\">5</span>x Cheaper": "We’re <span class=\"cheapernum\">5</span>x Cheaper",
+	"We’re <span class=\"cheapernum\">2</span>x Cheaper": "We’re <span class=\"cheapernum\">2</span>x Cheaper",
 	"Become part of our ever growing community": "Become part of our ever growing community",
 	"JOIN US ON TELEGRAM": "JOIN US ON TELEGRAM",
 	"----------- index end-----------": "----------- index end-----------",
@@ -117,5 +117,10 @@
 	"About VIFApay": "About VIFApay",
 	"Founded in early 2018, VIFApay, one of the sub-brand of Vins Global Fintech. is the first service provider of C2C payment solution of cryptocurrency world wide.Currently, VIFApay serves more than 20 countries and regions around the world. VIFApay supports in payment and settlement of various cryptocurrencies. VIFApay offline settlement scale has exceeded USD 20 million per day and the amount continues to grow rapidly": "Founded in early 2018, VIFApay, one of the sub-brand of Vins Global Fintech. is the first service provider of C2C payment solution of cryptocurrency world wide.Currently, VIFApay serves more than 20 countries and regions around the world. VIFApay supports in payment and settlement of various cryptocurrencies. VIFApay offline settlement scale has exceeded USD 20 million per day and the amount continues to grow rapidly",
 	"The team consists of top talents from the international Internet and financial industries,who have rich experience in technology development and operations in the field of blockchain and traditional finance": "The team consists of top talents from the international Internet and financial industries,who have rich experience in technology development and operations in the field of blockchain and traditional finance",
-	"VIFApay works with leaders in the global blockchain field and is dedicated to creating a global cryptocurrency payment ecosystem": "VIFApay works with leaders in the global blockchain field and is dedicated to creating a global cryptocurrency payment ecosystem"
+	"VIFApay works with leaders in the global blockchain field and is dedicated to creating a global cryptocurrency payment ecosystem": "VIFApay works with leaders in the global blockchain field and is dedicated to creating a global cryptocurrency payment ecosystem",
+	"CNY": "CNY",
+	"VND": "VND",
+	"Trader": "Trader",
+	"CNY Live Demo": "CNY Live Demo",
+	"VND Live Demo": "VND Live Demo"
 }

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include ('./partials/head') %>
+    <link rel="stylesheet" href="/css/help.css">
+</head>
+
+<body>
+    <%- include ('./partials/header') %>
+    <div class="container">
+        <div class="category-content">
+            <header class="page-header">
+                <h1>Q&amp;A</h1>
+            </header>
+            <div class="row">
+                <% data.forEach(function(item,i) {%>
+                <section class="section col-md-6">
+                    <h3 class="section-tree-title">
+                        <a href="/question/category/<%= item._id %>"><% if(lang === 'en') { %>
+                            <%= item.text_en %>
+                            <% } else if(lang === 'vi') { %>
+                            <%= item.text_vi %>
+                            <% } else if(lang === 'cn') { %>
+                            <%= item.text_cn %>
+                            <% } else { %>
+                            <%= item.text_en %>
+                            <% } %></a>
+                    </h3>
+
+                    <ul class="article-list">
+                        <% item.question.forEach(function(question,index) { %>
+
+                        <li class="article-list-item article-promoted">
+
+                            <% if(question.popular === true ) { %>
+                            <span data-title="Promoted article" class="icon-star"></span>
+                            <%}%>
+                            <a href="/help/<%= question._id %>" class="article-list-link">
+                            <% if(lang === 'en') { %>
+                            <%= question.question_en %>
+                            <% } else if(lang === 'vi') { %>
+                            <%= question.question_vi %>
+                            <% } else if(lang === 'cn') { %>
+                            <%= question.question_cn %>
+                            <% } else { %>
+                            <%= question.question_en %>
+                            <% } %>
+                            </a>
+                        </li>
+                        <% }) %>
+                    </ul>
+                </section>
+                <% }) %>
+            </div>
+        </div>
+    </div>
+    <%- include ('./partials/footer') %>
+</body>
+
+</html>

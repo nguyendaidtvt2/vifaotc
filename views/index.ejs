@@ -29,9 +29,11 @@
                             <%= __('We put the power in your hands to buy, sell crypto, and accept cryptocurrencies as payments easily with VIFApay') %>.
                         </h3>
                         <div class="buttons animated bounceInRight">
-                            <a href="#" class="btn btn-outline-primary btn-lg mr-3"
-                                target="_blank"><%= __('Live Demo') %></a>
-                            <a href="#" class="btn btn-outline-info btn-lg" target="_blank"><%= __('Get Started') %></a>
+                            <a href="http://api.vifaotc.com/testpay?price=100"
+                                class="btn btn-outline-primary btn-lg mr-3"
+                                target="_blank"><%= __('CNY Live Demo') %></a>
+                            <a href="https://apivnd.vifaotc.com/testpay?price=10000" class="btn btn-outline-info btn-lg"
+                                target="_blank"><%= __('VND Live Demo') %></a>
                         </div>
                     </div>
                 </div>
@@ -412,15 +414,13 @@
                                         </div>
                                         <div class="Compares_card_text"><%= __('YOU PAY') %></div>
                                         <div class="Compares_card_price">
-                                            <span>$</span><b class="price_num3">1.00</b></div>
-                                        <div class="Compares__card__helper tc">1%</div>
+                                            <span>$</span><b class="price_num3">2.5</b></div>
+                                        <div class="Compares__card__helper tc">2.5%</div>
                                     </div>
                                     <div class="Compares_card_label">
-                                        <%- __('We’re <span class="cheapernum">5</span>x Cheaper') %>!
+                                        <%- __('We’re <span class="cheapernum">2</span>x Cheaper') %>!
                                     </div>
                                 </div>
-
-
                             </div>
                         </div>
                     </div>
@@ -460,7 +460,7 @@
                                 <%= __('Become part of our ever growing community') %></h2>
                             <div class="text-center wow fadeInUp  animated" data-wow-duration="1.3s"
                                 style="visibility: visible; animation-duration: 1.3s; animation-name: fadeInUp;">
-                                <a href="https://t.me/dizpay" target="_blank" class="btn1 big-btn"><i
+                                <a href="https://t.me/vifaotc" target="_blank" class="btn1 big-btn"><i
                                         class="fa fa-paper-plane-o"></i><%= __('JOIN US ON TELEGRAM') %></a>
                             </div>
                         </div>
@@ -468,7 +468,44 @@
                 </div>
             </div>
         </section>
-
+        <section class="partenrs-area section bg-img jarallax">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="section-heading wow fadeInUp  animated" data-wow-duration="1.0s"
+                            style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+                            <h2>Our Partners</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="mediabrand">
+                            <ul>
+                                <li class="wow fadeInUp  animated" data-wow-duration="1.3s"
+                                    style="visibility: visible; animation-duration: 1.3s; animation-name: fadeInUp;"><a
+                                        href="http://lionhash.com/" target="_blank"><img src="/images/01.jpg"
+                                            alt=""></a></li>
+                                <li class="wow fadeInUp  animated" data-wow-duration="1.6s"
+                                    style="visibility: visible; animation-duration: 1.6s; animation-name: fadeInUp;"><a
+                                        href="http://lionhash.com/" target="_blank"><img src="/images/02.jpg"
+                                            alt=""></a></li>
+                                <li class="wow fadeInUp  animated" data-wow-duration="1.6s"
+                                    style="visibility: visible; animation-duration: 1.6s; animation-name: fadeInUp;"><a
+                                        href="https://vgfinex.com/" target="_blank"><img src="/images/03.jpg"
+                                            alt=""></a></li>
+                                <li class="wow fadeInUp  animated" data-wow-duration="1.6s"
+                                    style="visibility: visible; animation-duration: 1.6s; animation-name: fadeInUp;"><a
+                                        href="https://www.huobi.com/" target="_blank"><img src="/images/04.jpg"
+                                            alt=""></a></li>
+                                <li class="wow fadeInUp  animated" data-wow-duration="1.6s"
+                                    style="visibility: visible; animation-duration: 1.6s; animation-name: fadeInUp;"><a
+                                        href="https://www.binance.com/" target="_blank"><img src="/images/05.jpg"
+                                            alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
     <%- include ('./partials/footer') %>
 </body>

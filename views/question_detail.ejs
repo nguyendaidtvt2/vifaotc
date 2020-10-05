@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include ('./partials/head') %>
+    <link rel="stylesheet" href="/css/question_detail.css" />
+</head>
+
+<body>
+    <%- include ('./partials/header') %>
+    <article class="article container">
+        <header class="article-header">
+            <h1 title="How to register?" class="article-title">
+                <% if(lang === 'en') { %>
+                <%- data.question_en %>
+                <% } else if(lang === 'vi') { %>
+                <%- data.question_vi %>
+                <% } else if(lang === 'cn') { %>
+                <%- data.question_cn %>
+                <% } else { %>
+                <%- data.question_en %>
+                <% } %>
+            </h1>
+            <div class="article-author">
+
+                <div class="avatar article-avatar">
+
+                    <span class="icon-agent"></span>
+
+                    <img src="/images/vifa-box.png" alt="" class="user-avatar">
+                </div>
+
+                <div class="article-meta">
+
+
+                    VIFApay official
+
+
+
+                    <ul class="meta-group">
+
+                        <li class="meta-data"><time datetime="2019-09-20T03:00:29Z" title="2019-09-20 10:00"
+                                data-datetime="relative">1 year ago</time></li>
+                        <li class="meta-data">Updated</li>
+
+                    </ul>
+                </div>
+            </div>
+
+
+        </header>
+
+        <section class="article-info">
+            <% if(lang === 'en') { %>
+            <%- data.answer_en %>
+            <% } else if(lang === 'vi') { %>
+            <%- data.answer_vi %>
+            <% } else if(lang === 'cn') { %>
+            <%- data.answer_cn %>
+            <% } else { %>
+            <%- data.answer_en %>
+            <% } %>
+        </section>
+
+    </article>
+    <%- include ('./partials/footer') %>
+</body>
+
+</html>
