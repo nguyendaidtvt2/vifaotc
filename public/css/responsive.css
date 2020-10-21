@@ -1,0 +1,389 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    nav {
+        width: 100vw !important;
+    }
+
+    .section {
+        height: auto !important;
+        padding: 50px 0;
+    }
+
+    #particles-js {
+        height: 100vh !important;
+    }
+
+    .carousel {
+        padding: 20vh 0 27vh !important;
+        text-align: center;
+    }
+
+    .container {
+        padding: 30px 20px !important;
+    }
+
+    .slider-content h2 {
+        font-size: 40px !important;
+    }
+
+    .slider-content h3 {
+        font-size: 20px !important;
+    }
+
+    .buttons a {
+        margin: 20px 10px;
+    }
+
+    .section-heading2 h2 {
+        font-size: 25px !important;
+    }
+
+    .conte {
+        padding: 0 !important;
+    }
+
+    .conte .conte-img {
+        padding: 20px !important;
+    }
+
+    .sud {
+        margin-top: -2px !important;
+    }
+
+    .section-heading h2 {
+        font-size: 20px !important;
+    }
+
+    .Compares_card_wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Compares_card {
+        width: 100% !important;
+    }
+
+    .btn1.big-btn {
+        font-size: 16px !important;
+    }
+
+    .Compare_web {
+        display: none;
+    }
+
+    .Compares_fee {
+        padding: 8rem 0 0 !important;
+    }
+
+    .Compares_fee_icon {
+        width: 140px !important;
+        height: 140px !important;
+    }
+
+    .Compares_fee_icon_value {
+        font-size: 36px !important;
+    }
+
+    .partenrs-area {
+        margin: -2px 0 !important;
+    }
+
+    .mediabrand ul {
+        display: block !important;
+    }
+
+    .mediabrand ul li {
+        float: left !important;
+        width: calc((100% - 90px)/3) !important;
+        margin: 15px !important;
+    }
+
+    .border-left {
+        padding-left: 15px !important;
+        border: none !important;
+    }
+
+    .col-sm-3 {
+        margin-bottom: 20px;
+    }
+
+    footer .footer-bottom {
+        line-height: 26px !important;
+        padding: 50px 0 !important;
+        text-align: center !important;
+    }
+
+    .foo-bot .footer-bottom img {
+        width: 190px !important;
+    }
+
+    footer .footer-bottom span {
+        font-size: 13px !important;
+        display: block !important;
+        margin: 20px 0 !important;
+    }
+
+    .follow_us {
+        float: inherit !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .trades-image {
+        display: none !important;
+    }
+
+    .process-image {
+        display: none !important
+    }
+
+    .trades-become {
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .greenBgButton {
+        margin: 40px !important;
+    }
+
+    .marginL130,
+    .marginL110 {
+        margin: 0 !important;
+    }
+
+    .flex1 {
+        flex: inherit !important;
+    }
+
+    .section>div,
+    .calculatingRevenue .el-row {
+        width: 100% !important;
+        padding: 0 30px;
+    }
+
+    .calculatingRevenue {
+        margin: 0 40px !important;
+    }
+
+    .section h2 {
+        margin-bottom: 50px !important;
+    }
+
+    .calculatingRevenue .el-row {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .el-input__suffix {
+        right: -33px !important;
+    }
+
+    .calculatingRevenue .el-row .el-col {
+        text-align: left;
+    }
+
+    .calculatingRevenue .el-row .el-col p {
+        min-width: 0px !important;
+    }
+
+    .calculatingRevenue .el-row .el-col-2 {
+        padding-top: 20px !important;
+    }
+
+    .calculatingRevenue .el-row .el-col.el-col-1 {
+        padding-top: 20px !important;
+    }
+
+    .expected-revenue {
+        display: none !important;
+    }
+
+    .calculatingRevenue .el-row .el-col.el-col-4 {
+        padding-top: 30px !important;
+    }
+
+    .alignLeft {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .calculatingRevenue .tip {
+        width: 100% !important;
+        margin-top: 40px !important;
+    }
+
+    .dealerProcss ul li {
+        width: 100% !important;
+        margin: 30px 0 !important;
+    }
+
+    .marginB60 {
+        margin-bottom: 0 !important;
+    }
+
+    .service[data-v-2e36f698] {
+        height: auto !important;
+    }
+
+    .service ul[data-v-2e36f698] {
+        flex-direction: column !important;
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .service ul li[data-v-2e36f698] {
+        width: 100% !important;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    .service ul li .movie[data-v-2e36f698] {
+        height: auto !important;
+        margin-bottom: 30px;
+    }
+
+    .otc365 .tabs[data-v-2e36f698] {
+        width: 100% !important;
+    }
+
+    .otc365 .title[data-v-2e36f698] {
+        font-size: 25px;
+    }
+
+    .otc365 .tabs .right[data-v-2e36f698],
+    .otc365 .tabs .left[data-v-2e36f698] {
+        float: inherit !important;
+        width: 100% !important;
+    }
+
+    .otc365 .tabs .displayContent[data-v-2e36f698] {
+        margin: 0px !important;
+        width: auto !important;
+        height: auto !important;
+    }
+
+    .otc365 .tabs .tabItem i[data-v-2e36f698] {
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+    .otc365 .tabs .tabItem span[data-v-2e36f698] {
+        font-size: 18px !important;
+    }
+
+    .otc365 .tabs .tabItem[data-v-2e36f698] {
+        height: 40px;
+    }
+
+    .section[data-v-2e36f698] {
+        margin-bottom: 0 !important;
+    }
+
+    .access[data-v-2e36f698] {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        height: auto !important;
+    }
+
+    .access .title[data-v-2e36f698] {
+        font-size: 25px !important;
+    }
+
+    .platformComparisonExecl[data-v-2e36f698],
+    .platformComparisonExecl img[data-v-2e36f698] {
+        height: auto !important;
+    }
+
+    .integrating .payment-demo .procedure[data-v-2e36f698] {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .integrating .payment-demo .demonstrate[data-v-2e36f698] {
+        width: 100% !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .contact {
+        margin-bottom: 250px !important;
+        margin-top: 100px !important;
+    }
+
+    .integrating .payment-demo[data-v-2e36f698] {
+        height: auto !important
+    }
+
+    .demonstrate-right {
+        margin-top: 50px !important;
+    }
+
+    .integrating .contact .contact-info[data-v-2e36f698] {
+        width: 100% !important;
+    }
+
+    .integrating .contact .contact-info[data-v-2e36f698] {
+        flex-direction: column;
+    }
+
+    .integrating .contact .avatar[data-v-2e36f698] {
+        display: none !important;
+    }
+
+    .vertical-center {
+        margin-bottom: 10px !important;
+    }
+
+    .section[data-v-2e36f698].demo-pay {
+        margin-top: 200px !important;
+    }
+
+    .el-main[data-v-10e5886e] {
+        min-width: auto !important;
+    }
+
+    .about[data-v-c0d1e546] {
+        width: 100% !important;
+        min-width: auto !important;
+        max-width: auto !important;
+    }
+
+    .about .title[data-v-c0d1e546] {
+        padding: 160px 20px !important;
+    }
+
+    .about>li>div[data-v-c0d1e546] {
+        width: 100% !important;
+    }
+
+    .about .title h1[data-v-c0d1e546] {
+        font-size: 40px !important;
+    }
+
+    .about-intro .right {
+        display: none !important;
+    }
+
+    .about .about-intro .left[data-v-c0d1e546] {
+        margin-right: 10px !important;
+    }
+
+    .about .merchantLogo[data-v-c0d1e546] {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about .merchantLogo div[data-v-c0d1e546] {
+        margin-right: 0px !important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1250px) {}
