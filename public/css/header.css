@@ -10,12 +10,14 @@ nav {
     top: 0;
 }
 
-.nav-item > .nav-link {
+.nav-item>.nav-link {
     color: #fff;
 }
+
 .nav-link.none {
     display: none;
 }
+
 .dropdown-item.none {
     display: none;
 }
